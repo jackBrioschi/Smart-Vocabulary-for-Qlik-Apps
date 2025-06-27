@@ -1,0 +1,25 @@
+{
+  "name": "qlik-smart-vocabulary",
+  "version": "1.0.0",
+  "description": "Smart Vocabulary for Qlik Apps",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackBrioschi/Qlik-Smart-Vocabulary.git"
+  },
+  "keywords": [
+    "Qlik",
+    "SmartVocabulary",
+    "Analytics",
+    "AI"
+  ],
+  "author": "Giacomo Brioschi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jackBrioschi/Qlik-Smart-Vocabulary/issues"
+  },
+  "homepage": "https://github.com/jackBrioschi/Qlik-Smart-Vocabulary#readme"
+}
