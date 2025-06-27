@@ -24,7 +24,7 @@
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/Qlik-Smart-Vocabulary.git
+git clone https://github.com/jackBrioschi/Qlik-Smart-Vocabulary
 cd Qlik-Smart-Vocabulary
 ```
 
