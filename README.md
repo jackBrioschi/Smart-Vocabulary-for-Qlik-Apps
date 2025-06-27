@@ -14,7 +14,7 @@
 
 ### Prerequisites
 
-- Node.js v16 or later
+- Node.js v20 or later
 - Access to a Qlik app (via QIX Engine API)
 - Qlik Cloud API Key
 - OpenAI API Key
