@@ -21,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/jackBrioschi/Qlik-Smart-Vocabulary/issues"
   },
-  "homepage": "https://github.com/jackBrioschi/Qlik-Smart-Vocabulary#readme"
+  "homepage": "https://github.com/jackBrioschi/Qlik-Smart-Vocabulary#readme",
+  "dependencies": {
+    "dotenv": "^16.6.0",
+    "enigma.js": "^2.14.0",
+    "openai": "^5.8.1",
+    "ws": "^8.18.2"
+  }
 }
