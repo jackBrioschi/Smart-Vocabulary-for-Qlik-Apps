@@ -2,6 +2,9 @@
 
 **Qlik-Smart-Vocabulary** is a Node.js tool that connects to a Qlik app via the QIX Engine APIs, retrieves master measures and dimensions, enriches them with synonyms using OpenAI's language models, and automatically populates the app's vocabulary with the enhanced terms.
 
+> [!NOTE]  
+> This app modifies the QIX interface to update vocabulary objects in a Qlik Sense app. These objects aren't officially supported by Qlik and could change without notice, which may impact this workflow in the future.
+
 ## ✨ Features
 
 - Connects to a Qlik app using QIX Engine APIs
