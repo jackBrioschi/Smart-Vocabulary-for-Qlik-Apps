@@ -31,8 +31,8 @@
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/jackBrioschi/Qlik-Smart-Vocabulary
-cd Qlik-Smart-Vocabulary
+git clone https://github.com/jackBrioschi/Smart-Vocabulary-for-Qlik-Apps
+cd Smart-Vocabulary-for-Qlik-Apps
 ```
 
 2. Install Dependencies:
