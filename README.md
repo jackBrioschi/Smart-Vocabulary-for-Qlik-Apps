@@ -3,7 +3,7 @@
 **Qlik-Smart-Vocabulary** is a Node.js tool that connects to a Qlik app via the QIX Engine APIs, retrieves master measures and dimensions, enriches them with synonyms using OpenAI's language models, and automatically populates the app's vocabulary with the enhanced terms.
 
 > [!NOTE]  
-> This app modifies the QIX interface to update vocabulary objects in a Qlik Sense app. These objects aren't officially supported by Qlik and could change without notice, which may impact this workflow in the future. Furthermore this app sends Master Measures and Dimensions title and description to an external LLM. You are responsible for passing meta data to an external LLM of your choice. Customers should evaluate this approach and ensure it aligns with their organization’s data governance policies.
+> This application modifies the QIX interface to update vocabulary objects within a Qlik Sense app. These objects are not officially supported by Qlik and may change without notice, potentially impacting this workflow in the future. Additionally, the app sends the titles and descriptions of Master Measures and Dimensions to an external Large Language Model (LLM). You are responsible for selecting and managing the external LLM used. Customers should carefully evaluate this approach to ensure it complies with their organization’s data governance policies. It is also strongly recommended to review the quality and accuracy of the results returned by the LLM before publishing the app for end users.
 
 ## ✨ Features
 
@@ -12,6 +12,10 @@
 - Uses OpenAI's API to generate intelligent synonyms based on name and description
 - Updates the app vocabulary with the generated synonyms
 - Saves the updated vocabulary directly into the Qlik app
+
+<p>
+  <img src="img/SmartVocabulary.PNG" alt="Smart Vocabulary Logo" width="500"/>
+</p>
 
 ## 🚀 Getting Started
 
