@@ -42,13 +42,10 @@ npm install
 
 3. Duplicate the file .env.example and rename it .env.dev: fill the following variables of .end.dev file in the root directory
 
-QLIK_CLOUD_APIKEY= your_qlikcloud_apikey
-
-QLIK_CLOUD_TENANT=your-tenant-hostname.region.qlikcloud.com
-
-QLIK_CLOUD_APPID=your_qlik_appid
-
-OPENAI_APIKEY= your_openai_apikey
+   - `QLIK_CLOUD_APIKEY=your_qlikcloud_apikey`
+   - `QLIK_CLOUD_TENANT=your-tenant-hostname.region.qlikcloud.com`
+   - `QLIK_CLOUD_APPID=your_qlik_appid`
+   - `OPENAI_APIKEY=your_openai_apikey`
 
 ### Usage
 
