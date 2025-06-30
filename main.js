@@ -67,7 +67,7 @@ const url = `wss://${tenant}/app/${appId}`;
       //Invoke OpenAI APIs for retrieving synonism
       const response = await client.responses.create({
           model: "gpt-4.1",
-          input: "I need to fill a metadata vocabulary with synonyms of measures and dimensions for data analysis purposes. Can you give me an array of max 6 synonyms of the word "+masterProp.qMetaDef.title+" that users could use to query the data? I want as the output just an array, without any additional sentences. I also give you a bit more of context regarding what the term means: "+ masterProp.qMetaDef.description
+          input: "I need to fill a metadata vocabulary with synonyms of measures and dimensions for data analysis purposes. Can you give me an array of max 6 synonyms of the word "+masterProp.qMetaDef.title+" that users could use to query the data? I want as the output just an array, without any additional sentences. Where in a master measure you find the character '#' use it as 'number of'. I also give you a bit more of context regarding what the term means: "+ masterProp.qMetaDef.description
       });
       const list_of_terms = response.output_text;
 
