@@ -1,5 +1,5 @@
 {
-  "name": "qlik-smart-vocabulary",
+  "name": "Smart-Vocabulary-for-Qlik-Apps",
   "version": "1.0.0",
   "description": "Smart Vocabulary for Qlik Apps",
   "main": "main.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jackBrioschi/Qlik-Smart-Vocabulary.git"
+    "url": "git+https://github.com/jackBrioschi/Smart-Vocabulary-for-Qlik-Apps.git"
   },
   "keywords": [
     "Qlik",
@@ -19,9 +19,9 @@
   "author": "Giacomo Brioschi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jackBrioschi/Qlik-Smart-Vocabulary/issues"
+    "url": "https://github.com/jackBrioschi/Smart-Vocabulary-for-Qlik-Apps/issues"
   },
-  "homepage": "https://github.com/jackBrioschi/Qlik-Smart-Vocabulary#readme",
+  "homepage": "https://github.com/jackBrioschi/Smart-Vocabulary-for-Qlik-Apps#readme",
   "dependencies": {
     "dotenv": "^16.6.0",
     "enigma.js": "^2.14.0",
