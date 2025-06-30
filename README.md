@@ -14,7 +14,7 @@
 - Saves the updated vocabulary directly into the Qlik app
 
 <p>
-  <img src="img/SmartVocabulary.png" alt="Smart Vocabulary Logo" width="500"/>
+  <img src="img/SmartVocabulary.png" alt="Smart Vocabulary Logo" width="600"/>
 </p>
 
 ## 🚀 Getting Started
