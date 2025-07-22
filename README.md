@@ -58,13 +58,15 @@ The script will:
 
 1) Connect to the specified Qlik app
 
-2) Fetch all master dimensions and measures
+2) Check if a vocabulary exists and in case not it will create an empty one
 
-3) Send their names and descriptions to OpenAI for synonym enrichment: no sensitive information like values contained into each single master items are sent to OpenAI
+3) Fetch all master dimensions and measures
 
-4) Generate a vocabulary object
+4) Send their names and descriptions to OpenAI for synonym enrichment: no sensitive information like values contained into each single master items are sent to OpenAI
 
-5) Save it back into the Qlik app
+5) Generate a vocabulary object
+
+6) Save it back into the Qlik app
 
 
 ## 📄 License
