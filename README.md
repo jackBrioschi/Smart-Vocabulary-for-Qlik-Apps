@@ -8,6 +8,7 @@
 ## ✨ Features
 
 - Connects to a Qlik app using QIX Engine APIs
+- Check if a vocabulary exists and in case not it will create an empty one
 - Retrieves all master dimensions and measures
 - Uses OpenAI's API to generate intelligent synonyms based on name and description
 - Updates the app vocabulary with the generated synonyms
